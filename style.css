@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Courier';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: royalblue;
+    flex-direction: column;
+}
+h2 {
+    margin-top:100px;
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    font-size: 1.5rem;
+}
+.author {
+    float: right;
+}
+.content {
+    width: 100%;
+    height: 150px;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    text-align: left;  
+   
+}
+.quote-text {
+    overflow: auto;
+    margin-top: 30px;
+    color: royalblue;
+    font-size: 18px;
+}
+.card {
+    padding: 10px 40px;
+    background: white;
+    margin-top: 20px;
+    width: 450px;  
+    height: 215px;
+    border-radius: 10px;
+}
+.author {
+    margin-top: 30px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+p {
+    float: right;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-between;
+    
+}
+.fa {
+    padding: 2px;
+    font-size: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+     
+  }
+button {
+    font-size: 18px;
+    width: 130px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+button:hover {
+    background: pink;
+}
+.fa-twitter, button{
+    background: royalblue;
+    color: white;
+  }
+  footer {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  footer p {
+      color: white;
+  }
+  footer span {
+      color: mediumaquamarine;
+  }
